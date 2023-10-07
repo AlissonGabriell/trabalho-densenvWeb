@@ -1,0 +1,100 @@
+*{ /*estilo da pagina(geral)*/ 
+    font-family: Arial, Helvetica, sans-serif; /*fonte*/
+    text-align: center; /*alinhar texto*/
+    margin: 0px; /*espaçamento da margin*/
+    background-color: #7c75d5fa; /*cor de fundo*/
+}
+
+header{ 
+    background-color: #444078; 
+    margin: 0px 0px 20px 0px;
+    padding: 20px; /*preenchimento*/
+}
+
+header > h1{  
+    padding: 0px 20px 20px 20px;
+    background-color: #444078;
+}
+
+nav{ 
+    background-color: rgb(156, 156, 156);
+    padding: 30px;   
+    text-align: left;
+    border-radius: 10px; /*arredondar as bordas*/
+}
+ 
+a{  
+    color: rgba(0, 0, 0, 0.838); /*cor da fonte*/
+    font-weight: bold; /*força da fonte*/
+    font-size: 25px;
+    margin: 40px;
+    background-color: rgb(156, 156, 156);
+    text-decoration: none; /*decoração do texto*/
+}
+
+a:hover{ /*estilo para quando o mouse passar sobre os links*/ 
+    background-color: rgb(99, 99, 99);
+    padding: 30px;
+    color: white
+}
+
+main{ 
+    margin: 0px;
+}
+
+section{ 
+    padding: auto;
+    margin: 0px;
+}
+
+form{
+    font-size: 25px;
+    text-align: left;
+    font-weight: bold;
+}
+
+form > input, textarea{
+    margin: 5px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px; /*largura*/
+    display: flex; /*define os tipos de exibição*/
+    background-color: white;
+}
+
+section > h1{
+    text-align: left;
+    font-size: 50px;
+}
+
+#formacao{ /*container da pagina formação*/
+    font-size: 32px;
+    padding: 130px 30px;
+    display: block;
+    text-align: left;
+    position: fixed; /*posição do elemento*/
+    line-height: 50px; /*espaçamento das linhas*/
+}
+
+aside{
+    position: fixed;
+    display: inline-block;
+    margin-left: 80px;
+}
+
+img{
+    padding: 50px 150px;
+    position: fixed;
+} 
+
+#codeImg{ /*imagem da pagina inicial*/
+    padding: 50px;
+    position: relative;
+}
+
+p{
+  text-indent: 1em; /*identação da primeira linha do paragrafo*/
+  text-align: justify; /*alinhamento do texto*/
+  font-size: 1.8em; /*tamanho da fonte*/
+  margin: 10px 30px 5px 20px;
+}
